@@ -46,7 +46,7 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/FinTeens.git
+git clone https://github.com/Prachi9506/FinTeens.git
 cd FinTeens
 
 
