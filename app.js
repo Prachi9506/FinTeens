@@ -14,7 +14,7 @@ function showSection(sectionId) {
     });  
     document.getElementById(sectionId).classList.add('active');
   }
-  
+   
   // Budget Planner
   let budgetItems = [];
   
@@ -374,6 +374,7 @@ function showSection(sectionId) {
     }
 
   });
+
 
 
 
