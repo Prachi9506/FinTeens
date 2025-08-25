@@ -36,7 +36,7 @@ function showSection(sectionId) {
     }
   }
   
-  function removeBudgetItem(id) {
+  function removeBudgetItem(id) { 
     budgetItems = budgetItems.filter(item => item.id !== id);
     updateBudgetUI();
   }
@@ -374,6 +374,7 @@ function showSection(sectionId) {
     }
 
   });
+
 
 
 
