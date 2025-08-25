@@ -13,7 +13,7 @@ function showSection(sectionId) {
       section.classList.remove('active');  
     });  
     document.getElementById(sectionId).classList.add('active');
-  }
+  } 
    
   // Budget Planner
   let budgetItems = [];
@@ -374,6 +374,7 @@ function showSection(sectionId) {
     }
 
   });
+
 
 
 
