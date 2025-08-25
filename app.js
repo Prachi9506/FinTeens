@@ -5,7 +5,7 @@ function showSection(sectionId) {
       btn.classList.remove('active');
       if (btn.textContent.toLowerCase() === sectionId) {
         btn.classList.add('active');
-      }
+      } 
     });
   
     // Show selected section
@@ -372,4 +372,5 @@ function showSection(sectionId) {
     if (!quizCompleted) {
       startQuiz();
     }
+
   });
