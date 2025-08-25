@@ -23,7 +23,7 @@ function showSection(sectionId) {
     const amount = parseFloat(document.getElementById('amount').value);
     const type = document.getElementById('type').value;
   
-    if (category && amount) {
+    if (category && amount) { 
       budgetItems.push({
         id: Date.now(),
         category,
@@ -374,6 +374,7 @@ function showSection(sectionId) {
     }
 
   });
+
 
 
 
