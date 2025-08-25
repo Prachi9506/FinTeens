@@ -10,7 +10,7 @@ function showSection(sectionId) {
   
     // Show selected section
     document.querySelectorAll('section').forEach(section => {
-      section.classList.remove('active'); 
+      section.classList.remove('active');  
     });  
     document.getElementById(sectionId).classList.add('active');
   }
@@ -374,6 +374,7 @@ function showSection(sectionId) {
     }
 
   });
+
 
 
 
